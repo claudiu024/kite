@@ -1,0 +1,256 @@
+/* map */
+#mini-map{
+ 
+  height: 20vh;
+  margin-top:1rem;
+}
+.leaflet-container {
+   right: 0;
+   left:0; 
+  margin: auto;
+  text-align: center;
+  width: 95%;
+  height: 70vh;
+  z-index: 0;
+
+}
+.popup-country{
+  margin-bottom: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0.2rem;
+  min-width: 10rem;
+
+}
+.popup-button{
+  background-color: #E8B100;
+color: white;
+
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  width: 100%;
+  bottom: 0;
+}
+.remove-favorite-button{
+  background-color: red;
+}
+
+/* filter */
+.filter-container{
+  z-index: 2;
+  background-color: white;
+  position:absolute;
+  right:5rem;
+  top:10rem;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 0.5rem 0.8rem;
+  width: 7rem;
+  
+}
+.filter-image{
+  height: 1.25rem;
+
+}
+
+.filter{  
+  z-index: 3;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin:0.1rem;
+
+}
+
+.filter-pop-up{
+  z-index: 3;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 15rem;
+  height: 15rem;
+  top:10rem;
+  right: 10rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  position: absolute;
+  text-align: center;
+  background-color: white;
+}
+
+.white-button{
+  background-color:white;;
+  color:black;
+  border: #A9A9A9 solid 0.1rem;
+  font-weight: 800;
+  padding: 0.7rem 1.5rem;
+  box-shadow: 0.1rem 0.2rem #888888;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* header */
+.header-button{
+  display:inline-block;
+ 
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  
+}
+.header-title{
+  display:inline-block;
+  font-weight:normal;
+  font-style: italic;
+  margin:1rem 
+  
+}
+.header-right-side{
+  right: 5rem;
+  position: absolute;
+  top:0.5rem;
+
+}
+.header-container{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 3;
+  top:0;
+}
+.user-icon{
+  margin-left: 2rem;
+  vertical-align: middle;
+ 
+}
+
+.logout-button{
+  color:white;
+  background-color: #E8B100;
+  padding: 0.5rem;
+  font-size: large;
+  right: 5rem;
+  top:4.5rem;
+  position: absolute;
+  box-shadow: 0.1rem 0.2rem #888888;
+}
+/* table */
+.table-section{margin:2rem }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  cursor: pointer;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tbody:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* login */
+.login-title{
+  font-size: 4rem;
+  font-weight:normal;
+  font-style: italic;
+}
+.login-input{
+  width: 25rem;
+ 
+}
+.login-button{
+  padding: 1rem 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-size: large;
+ 
+}
+.sign-up-link{
+  color: #4A90E2;
+  display: block;
+  margin-top: 1rem;
+}
+
+.field-error{
+  margin-top: 0;
+  color:red;
+}
+
+.main-container{
+  right: 0;
+  left:0;
+  bottom: 0;
+  top:0;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  width: 25rem; 
+  height: 40rem; 
+  font-size: 1rem;
+  z-index: 2;
+}
+.allign-left{
+  text-align: left;
+  }
+/* add-spot */
+.add-spot-container{
+  background-color: white;
+  position: absolute;
+  width: 22rem;
+  height: 42rem;
+  z-index: 2;
+  text-align: left;
+  bottom: 20rem;
+}
+.cancel, .confirm{
+  
+  font-size:1.5rem;
+  margin-top:0.7rem ;
+  font-weight:600;
+  background-color: inherit;
+}
+.cancel{
+  color:red;
+}
+.confirm{
+  color:blue;
+
+}
+
+p{
+  margin-bottom: 0;
+  font-size: 2rem;
+  width: auto;
+  text-align: left;
+}
+h4{
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color:#A9A9A9;
+  font-size: smaller;
+}
+
+h3{
+  margin-bottom:0;
+  margin-top: 0.5rem;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+.blue-button{ 
+  background-color:#4A90E2;
+  color:white;
+}
+
+
+
+
+
